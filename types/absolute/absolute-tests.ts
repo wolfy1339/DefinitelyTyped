@@ -5,6 +5,4 @@ import abs = require("abs");
 
 const x: boolean = absolute('/home/foo');
 
-
-abs("");
-
+const y: any = abs("");

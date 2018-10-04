@@ -1,3 +1,3 @@
 import Abs = require('abs');
 
-const x: string = Abs('/foo');
+const x: unknown = Abs('/foo');
