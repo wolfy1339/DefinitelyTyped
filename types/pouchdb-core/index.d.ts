@@ -8,7 +8,8 @@
 
 /// <reference types="debug" />
 /// <reference types="pouchdb-find" />
-/// <reference types="dom" />
+
+interface Blob {}
 
 interface Buffer extends Uint8Array {
     write(string: string, offset?: number, length?: number, encoding?: string): number;
